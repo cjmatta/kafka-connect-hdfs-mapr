@@ -1,7 +1,7 @@
 #### Kafka Connect HDFS on MapR
 
 ### test environment
-Downloaded the MapR Sandbox v5.2.1 and ran it on Virtualbox, made sure to add a second network interface running in Host-only network mode. I needed to create a host-only network.
+Downloaded the [MapR Sandbox](https://mapr.com/products/mapr-sandbox-hadoop/download/) and ran it on Virtualbox, made sure to add a second network interface running in Host-only network mode. I needed to create a host-only network.
 
 Log into vbox host (root/mapr) to get IP of VirtualBox and set `mapr` as an alias to `localhost` in `/etc/hosts`
 
