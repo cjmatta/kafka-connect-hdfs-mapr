@@ -1,0 +1,13 @@
+{
+    "name": "hdfs-mapr",
+    "config": {
+        "connector.class": "io.confluent.connect.hdfs.HdfsSinkConnector",
+        "tasks.max": 1,
+        "topics": "test_hdfs",
+        "hadoop.conf.dir": "/opt/mapr/hadoop/hadoop-2.7.0/etc/hadoop",
+        "hadoop.home": "/opt/mapr/hadoop/hadoop-2.7.0",
+        "topics.dir": "/chris",
+        "hdfs.url": "maprfs:///",
+        "flush.size": 3
+    }
+}
