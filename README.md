@@ -5,6 +5,7 @@ Downloaded the [MapR Sandbox](https://mapr.com/products/mapr-sandbox-hadoop/down
 
 Log into vbox host (root/mapr) to get IP of VirtualBox and set `mapr` as an alias to `localhost` in `/etc/hosts`
 
+#### on my Mac
 Set JAVA_HOME:
 ```
 $ export JAVA_HOME=$(/usr/libexec/java_home)
